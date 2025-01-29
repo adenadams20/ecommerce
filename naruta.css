@@ -1,0 +1,192 @@
+.lehaut{
+    background-color: rgba(233, 180, 180, 0.847);
+    padding: 20px;
+    text-align: center;
+}
+
+.haut1{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.hautlien {
+
+    color: black;
+    margin-right: 50px;
+    margin-left: 0 ;
+    
+
+}
+.hautlien a{
+ margin-right: 10px;
+ text-decoration: none;
+ color: brown;
+    
+}
+#nav{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}.FR{
+    border: solid rgb(169, 38, 38);
+    color: rgb(169, 38, 38);
+    border-radius: 5px;
+}
+#nav1{
+
+}
+.logo1{
+    
+    align-items: center;
+    justify-content: space-around;
+  }
+  #nav1{
+    width: 159px;
+    margin-left: 250px;
+    
+  }
+  #canada{
+    color: rgb(169, 38, 38);
+    border: rgb(169, 38, 38);
+  }
+
+  .icone{
+    
+margin-left: 300px;
+display: flex;
+
+  }
+  #cali{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+  }
+  #cali1{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    padding-top: 120px;
+
+  }
+  select:hover{
+    background-color: blue;
+  }
+  .pied{
+    width: 300px;
+    padding-left: 20px;
+    height: 350px;
+    justify-content: start;
+    font-size: 18px;
+    color: gray;
+
+  }
+
+  .site{
+    width: 150px;
+    padding-left: 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+
+  }
+
+  .site p:hover{
+    color: #53555a;
+    cursor: pointer;
+    
+  }
+  .site1{
+    width: 150px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 20px;
+    
+
+  }
+  .tout{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+.pink{
+    display: flex;
+    background-color: #ffd8c5;
+    height: 400px;
+    padding: 10PX;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.en-bas{
+    height: 350px;
+    width: 300px;
+    font-size: 18px;
+    color: gray;
+
+}
+#input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+.vert{
+    background-image: url(bagraound-colour.jpg);
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;  
+    color: white; 
+    font-size: larger 200px;
+    
+
+}
+#input1{
+    width: 350px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid white;
+    
+}
+#bouton{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+#input3{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid ;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.bouton1{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #53555a;
+    color: white;
+    margin-top: 20px;
+
+}
+#lang{
+    border: 1px solid white;
+}
+#lang:hover{
+    background-color: white;
+
+}
