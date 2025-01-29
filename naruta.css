@@ -179,6 +179,8 @@ text-align: center;
     background-color: pink;
     height: 390px;
     text-align: center, ;
+    
+
     display: flex;
     flex-direction: column;
     align-items: center;
