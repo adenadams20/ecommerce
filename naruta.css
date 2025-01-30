@@ -61,7 +61,6 @@ text-align: center;
 .SHOP
 {
     margin-right: 10px;
-    border: solid;
 }
 
 #prana
@@ -513,7 +512,6 @@ a
 }
 .vide
 {
-    border: solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
