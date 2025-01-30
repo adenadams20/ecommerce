@@ -1,0 +1,533 @@
+body
+
+{
+    padding: 0;
+    background: rgba(255, 255, 255, 0.808);
+    z-index: 1;
+    margin: 0;
+}
+
+.free
+{
+text-align: center;
+background-color: #ffbe9f;
+width: 100%;
+}
+.free p
+{
+    color: red;
+}
+
+.nav
+{
+    border: solid;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+
+    background: white;
+    z-index: 2;
+}
+.fr
+{border: solid;
+color: red;
+border-radius: 3px;
+height: 22px;
+text-align: center;
+}
+
+#img
+{
+   width: 30px;
+}
+
+
+#imo
+{
+   width:50px;
+   
+   
+}
+
+.icone
+{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.SHOP
+{
+    margin-right: 10px;
+    border: solid;
+}
+
+#prana
+{
+    width: 200px;
+    margin-left: 115px;
+}
+.sop
+{
+    margin-left: 50px;
+}
+
+.sop a
+{
+    text-decoration:none;
+    color: rgb(175, 38, 38);
+}
+
+#cana
+{
+    margin-left: 30px;
+    border-bottom: none;
+    color: rgb(206, 31, 31);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#new
+{
+    width: 100%;
+    height: 420px;
+}
+.container
+{
+    margin-top: 5px;
+    background-image: url( \WhatsApp\ Image\ 2025-01-09\ à\ 01.33.43_7f3760fb.jpg );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.container button
+{
+    padding: 10px;
+    
+}
+.tof
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+#tof
+{
+    width: 270px;
+    height: 250px;
+}
+.detail
+{
+    text-align: center;
+}
+.section
+{
+    height: 600px;
+    padding-top: 30px;
+    margin-top: 50PX;
+}
+.cook
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    align-items: center;
+
+}
+
+#view
+{
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+    width: 150px;
+}
+
+.cook2
+{
+    background-image: url(/image_5.png);
+    background-size: cover;
+    height: 550px;
+
+}
+.banana
+{
+    display: flex;
+    justify-content: center;
+}
+#banana
+{
+    width: 290px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.FLECHE
+{
+    margin-top: 50PX;
+    border: none;
+    background: transparent;
+    font-size: 30PX;
+}
+
+.insta
+{
+    background-image: url();
+    background-color: pink;
+    height: 390px;
+    text-align: center, ;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+video
+{
+    height: 150px;
+    width: 200px;
+}
+   
+#insta
+{
+    height: 200px;
+    width: 200px;
+}
+
+.speak
+{
+    background-color:#ebeff7 ;
+    width: 990px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.let
+{
+    text-align: center;
+}
+.cust
+{
+    padding: 20px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#etoiles
+{
+    width: 100px;
+}
+#choco
+{
+    height: 250px;
+    width: 250px;
+}
+
+.nourr
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 250px;
+   height: 200px;
+   margin-top: 100px;
+}
+.marg
+{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: rgb(71, 63, 63);
+}
+.margo
+{
+    color: rgb(138, 30, 30);
+    font-size: 16px;
+    margin-bottom: 3px;
+
+}
+.adobe
+{
+    background-image: url(AdobeStock_749648972_1500x.jpg);
+    background-position: fixed;
+    border: solid;
+    height: 500px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: fixed;
+}
+
+
+.plan
+{
+    height: 500px;
+    border: solid;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.text
+{
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    width: 330px;
+    text-align: center;
+}
+.text a
+{
+    color: gainsboro;
+
+
+}
+.lehaut{
+    background-color: rgba(233, 180, 180, 0.847);
+    padding: 0px;
+    text-align: center;
+}
+
+.haut1{
+    
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.hautlien {
+
+    color: black;
+    margin-right: 50px;
+    margin-left: 30px ;
+    
+
+}
+.hautlien a{
+ margin-right: 10px;
+ text-decoration: none;
+
+ color: rgb(169, 38, 38);
+
+}
+#nav{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}.FR{
+    border: solid rgb(169, 38, 38);
+    color: rgb(169, 38, 38);
+    border-radius: 5px;
+}
+
+.logo1{
+    
+    align-items: center;
+    justify-content: space-around;
+  }
+  #nav1{
+    width: 159px;
+    margin-left: 250px;
+    
+  }
+  #canada{
+    color: rgb(169, 38, 38);
+    border: rgb(169, 38, 38);
+  }
+
+  .icone{
+    
+margin-left: 300px;
+display: flex;
+
+  }
+  #cali{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+  }
+  #cali1{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    padding-top: 120px;
+
+  }
+  select:hover{
+    background-color: blue;
+  }
+  .pied{
+    width: 300px;
+    padding-left: 20px;
+    height: 350px;
+    justify-content: start;
+    font-size: 18px;
+    color: gray;
+
+  }
+
+  .site{
+    width: 150px;
+    padding-left: 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+
+  }
+
+  .site p:hover{
+    color: #53555a;
+    cursor: pointer;
+    
+  }
+  .site1{
+    width: 150px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 20px;
+    
+
+  }
+  .tout{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+.pink{
+    display: flex;
+    background-color: #ffd8c5;
+    height: 400px;
+    padding: 10PX;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.en-bas{
+    height: 350px;
+    width: 300px;
+    font-size: 18px;
+    color: gray;
+
+}
+#input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+.vert{
+    background-image: url(bagraound-colour.jpg);
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;  
+    color: white; 
+    font-size: larger 200px;
+    
+
+}
+#input1{
+    width: 350px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid white;
+    
+}
+#bouton{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+#input3{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid ;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.bouton1{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #53555a;
+    color: white;
+    margin-top: 20px;
+
+}
+#lang{
+    border: 1px solid white;
+}
+#lang:hover{
+    background-color: white;
+
+
+}
+
+.nourri
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+   margin-top: 100px;
+}
+
+#choca
+{
+    width: 400px;
+}
+.speak2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid;
+    width: 100%;
+
+
+}
+a
+{
+    color: #53555a;
+    font-size: 18px
+}
+.vide
+{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+#canada
+{
+    color: rgb(134, 32, 32);
+
+    background: transparent;
+    border: none;
+}
