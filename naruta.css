@@ -4,13 +4,15 @@ body
     padding: 0;
     background: rgba(255, 255, 255, 0.808);
     z-index: 1;
-    margin: 0%;
+    margin: 0;
 }
 
 .free
 {
 border: solid;
 text-align: center;
+background-color: #ffbe9f;
+width: 100%;
 }
 .free p
 {
@@ -189,9 +191,8 @@ text-align: center;
 
 video
 {
-    height: 200px;
+    height: 150px;
     width: 200px;
-    border: solid;
 }
    
 #insta
@@ -264,6 +265,7 @@ video
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: fixed;
 }
 
 
@@ -288,4 +290,245 @@ video
 .text a
 {
     color: gainsboro;
+
+
+}
+.lehaut{
+    background-color: rgba(233, 180, 180, 0.847);
+    padding: 0px;
+    text-align: center;
+}
+
+.haut1{
+    
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.hautlien {
+
+    color: black;
+    margin-right: 50px;
+    margin-left: 30px ;
+    
+
+}
+.hautlien a{
+ margin-right: 10px;
+ text-decoration: none;
+
+ color: rgb(169, 38, 38);
+
+}
+#nav{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}.FR{
+    border: solid rgb(169, 38, 38);
+    color: rgb(169, 38, 38);
+    border-radius: 5px;
+}
+
+.logo1{
+    
+    align-items: center;
+    justify-content: space-around;
+  }
+  #nav1{
+    width: 159px;
+    margin-left: 250px;
+    
+  }
+  #canada{
+    color: rgb(169, 38, 38);
+    border: rgb(169, 38, 38);
+  }
+
+  .icone{
+    
+margin-left: 300px;
+display: flex;
+
+  }
+  #cali{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   
+  }
+  #cali1{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    padding-top: 120px;
+
+  }
+  select:hover{
+    background-color: blue;
+  }
+  .pied{
+    width: 300px;
+    padding-left: 20px;
+    height: 350px;
+    justify-content: start;
+    font-size: 18px;
+    color: gray;
+
+  }
+
+  .site{
+    width: 150px;
+    padding-left: 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+
+  }
+
+  .site p:hover{
+    color: #53555a;
+    cursor: pointer;
+    
+  }
+  .site1{
+    width: 150px;
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(134, 32, 32);
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 20px;
+    
+
+  }
+  .tout{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+.pink{
+    display: flex;
+    background-color: #ffd8c5;
+    height: 400px;
+    padding: 10PX;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.en-bas{
+    height: 350px;
+    width: 300px;
+    font-size: 18px;
+    color: gray;
+
+}
+#input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+.vert{
+    background-image: url(bagraound-colour.jpg);
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;  
+    color: white; 
+    font-size: larger 200px;
+    
+
+}
+#input1{
+    width: 350px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid white;
+    
+}
+#bouton{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+#input3{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid ;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.bouton1{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #53555a;
+    color: white;
+    margin-top: 20px;
+
+}
+#lang{
+    border: 1px solid white;
+}
+#lang:hover{
+    background-color: white;
+
+
+}
+
+.nourri
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+   margin-top: 100px;
+}
+
+#choca
+{
+    width: 400px;
+}
+.speak2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid;
+    width: 100%;
+
+
+}
+a
+{
+    color: #53555a;
+    font-size: 18px
+}
+.vide
+{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+#canada
+{
+    color: rgb(134, 32, 32);
+
+    background: transparent;
+    border: none;
 }
