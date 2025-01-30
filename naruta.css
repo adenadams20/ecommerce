@@ -287,7 +287,7 @@ video
 .text a
 {
     color: gainsboro;
-=======
+}
 .lehaut{
     background-color: rgba(233, 180, 180, 0.847);
     padding: 20px;
@@ -327,9 +327,7 @@ video
     color: rgb(169, 38, 38);
     border-radius: 5px;
 }
-#nav1{
 
-}
 .logo1{
     
     align-items: center;
@@ -479,5 +477,4 @@ display: flex;
 #lang:hover{
     background-color: white;
 
->>>>>>> 8ab66c093d8beb1a0533ef790a1c9abe63d62884
 }
