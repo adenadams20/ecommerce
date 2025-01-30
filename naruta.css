@@ -259,7 +259,6 @@ video
 {
     background-image: url(AdobeStock_749648972_1500x.jpg);
     background-position: fixed;
-    border: solid;
     height: 500px;
     position: sticky;
     display: flex;
@@ -506,7 +505,6 @@ display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid;
     width: 100%;
 
 
