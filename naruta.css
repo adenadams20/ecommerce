@@ -260,7 +260,6 @@ video
     background-image: url(AdobeStock_749648972_1500x.jpg);
     background-position: fixed;
     height: 500px;
-    position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,7 +270,6 @@ video
 .plan
 {
     height: 500px;
-    border: solid;
     height: 600px;
     display: flex;
     flex-direction: column;
