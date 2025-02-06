@@ -16,7 +16,7 @@ width: 100%;
 }
 .free p
 {
-    color: red;
+    color: rgb(206, 31, 31);
 }
 
 .nav
@@ -339,8 +339,9 @@ video
 .hautlien {
 
     color: black;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-left: 30px ;
+    width: 405px;
     
 
 }
@@ -349,13 +350,16 @@ video
  text-decoration: none;
 
  color: rgb(169, 38, 38);
+ font-size: 18px;
 
 }
 #nav{
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-}.FR{
+    width: 30px;
+    height: 25px;
+    margin-left: 5px;
+}
+.FR
+{
     border: solid rgb(169, 38, 38);
     color: rgb(169, 38, 38);
     border-radius: 5px;
@@ -380,6 +384,7 @@ video
     
 margin-left: 300px;
 display: flex;
+margin-right: 50px;
 
   }
   #cali{
@@ -556,6 +561,7 @@ a
 
     background: transparent;
     border: none;
+
 }
 #abc
 {
@@ -620,4 +626,8 @@ a
 
  .let h1{
     color: rgb(175, 38, 38);
+ }
+ #nav1
+ {
+    margin-left: 200px;
  }
