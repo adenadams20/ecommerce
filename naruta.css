@@ -152,18 +152,27 @@ text-align: center;
     background-image: url(/image_5.png);
     background-size: cover;
     height: 550px;
+    align-items: center;
 
 }
 .banana
 {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 #banana
 {
-    width: 290px;
+    width: 350px;
+    height: 290px;
     margin-left: 50px;
-    margin-top: 30px;
+    
+
 }
 .FLECHE
 {
@@ -184,19 +193,30 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
     
 }
 
 video
 {
-    height: 150px;
-    width: 200px;
+    height: 210px;
+    width: 150px;
+    border: solid;
+    margin-left: 30px;
+    border-radius: 10px;
+    background: black;
+}
+#vid
+{
+    border-radius: 10px;
+    width: 150px;
 }
    
 #insta
 {
     height: 200px;
     width: 200px;
+    margin-left: 30px;
 }
 
 .speak
@@ -524,4 +544,56 @@ a
 
     background: transparent;
     border: none;
+}
+#abc
+{
+    width: 490px;
+    height: 500px;
+    margin-left: 180px;
+}
+.submit
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#envoie
+{
+    padding: 10px;
+    border-radius: 10px;
+}
+.av
+{ 
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+.us
+{
+    border: solid;
+    width: 30%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.us h1
+{
+ color: rgb(134, 32, 32);
+    ;
+}
+.nourre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marga
+{
+    width: 320px;
+}
+#marga
+{
+    color: rgb(169, 38, 38);
 }
