@@ -276,12 +276,11 @@ video
 .adobe
 {
     background-image: url(AdobeStock_749648972_1500x.jpg);
-    background-position: fixed;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: fixed;
+    background-attachment: fixed;
 }
 
 
