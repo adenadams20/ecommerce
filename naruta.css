@@ -149,11 +149,17 @@ text-align: center;
 
 .cook2
 {
-    background-image: url(/image_5.png);
+    background-image: url(image_5.png);
     background-size: cover;
     height: 550px;
     align-items: center;
+    
 
+}
+.cook2 h1
+{
+    color: rgb(206, 31, 31);
+    text-align: center;
 }
 .banana
 {
@@ -168,9 +174,9 @@ text-align: center;
 }
 #banana
 {
-    width: 350px;
+    width: 300px;
     height: 290px;
-    margin-left: 50px;
+    margin-left: 0px;
     
 
 }
@@ -193,8 +199,13 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 90px;
     
+}
+.insta h1{
+
+    color: rgb(175, 38, 38);
+
 }
 
 video
@@ -514,6 +525,7 @@ display: flex;
 #choca
 {
     width: 400px;
+    height: 250px;
 }
 .speak2
 {
@@ -521,6 +533,7 @@ display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    
 
 
 }
@@ -548,13 +561,14 @@ a
 {
     width: 490px;
     height: 500px;
-    margin-left: 180px;
+    margin-left: 80px;
 }
 .submit
 {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: -170px;
 }
 #envoie
 {
@@ -565,11 +579,10 @@ a
 { 
     display: flex;
     flex-direction: row;
-    margin: 0%;
+    margin-bottom: 20px;
 }
 .us
 {
-    border: solid;
     width: 30%;
     margin-left: 50px;
     display: flex;
@@ -586,13 +599,25 @@ a
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
 }
 .marga
 {
-    width: 320px;
+    background: white;
 }
 #marga
 {
     color: rgb(169, 38, 38);
 }
+.nourre p , a
+{
+ 
+    font-size: 14px;
+
+ }
+
+ .let h1{
+    color: rgb(175, 38, 38);
+ }
