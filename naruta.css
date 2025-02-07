@@ -1,10 +1,11 @@
 body
 
 {
-    padding: 0;
+    padding: 0%;
     background: rgba(255, 255, 255, 0.808);
     z-index: 1;
-    margin: 0;
+    margin: 10;
+    overflow-x:hidden ;
 }
 
 .free
@@ -14,6 +15,7 @@ background-color: #ffbe9f;
 padding: 10px;
 width: 100%;
 z-index: 10px;
+overflow: hidden;
 }
 .free p
 {
@@ -29,6 +31,7 @@ align-items: center;
 
     background: white;
     z-index: 2;
+    overflow: hidden;
 }
 .fr
 {border: solid;
@@ -107,6 +110,7 @@ text-align: center;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
+    overflow: hidden;
     
 }
 .container button
@@ -119,6 +123,7 @@ text-align: center;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    overflow: hidden;
     
 }
 #tof
@@ -135,13 +140,17 @@ text-align: center;
     height: 600px;
     padding-top: 30px;
     margin-top: 50PX;
+    overflow: hidden;
 }
 .cook
 {
     display: flex;
     justify-content: space-evenly;
-    height: 550px;
+    height: 590px;
     align-items: center;
+    margin-top: 50px;
+    width: 100%;
+   
 
 }
 
@@ -157,9 +166,10 @@ text-align: center;
 {
     background-image: url(image_5.png);
     background-size: cover;
-    height: 700px;
+    height: 630px;
     align-items: center;
     padding-top: 10px;
+    overflow: hidden;
     
 
 }
@@ -168,6 +178,7 @@ text-align: center;
     color: rgb(206, 31, 31);
     text-align: center;
     z-index: 1;
+    overflow: hidden;
 }
 .banana
 {
@@ -177,14 +188,15 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 408px;
     z-index: 10;
+    overflow: hidden;
 }
 #banana
 {
    
-    height: 200px;
-    width: 300px;
+    height: 220px;
+    width: 250px;
     margin-left: 0px;
     
 
@@ -200,15 +212,15 @@ text-align: center;
 .insta
 {
     background-image: url();
-    background-color: pink;
-    height: 500px;
+    background-color: rgb(255, 182, 139);
+    height: 310px;
     text-align: center, ;
     
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0px;
+    overflow: hidden;
     
 }
 .insta h1{
@@ -219,30 +231,35 @@ text-align: center;
 
 video
 {
-    height: 210px;
-    width: 150px;
-    border: solid;
-    margin-left: 30px;
+    
     border-radius: 10px;
-    background: black;
+    background-color: #f1caca;
+    width: 150px;
+   height: 170px;
+   margin-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    
 }
+
+
 #vid
 {
-    border-radius: 10px;
-    width: 150px;
+   
 }
    
 #insta
 {
     height: 200px;
     width: 200px;
-    margin-left: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
 }
 
 .speak
 {
-    background-color:#ebeff7 ;
-    width: 90%;
+    background-color:#fcfcfc ;
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -263,6 +280,8 @@ video
 #etoiles
 {
     width: 100px;
+    
+    margin-top: 10px;
 }
 #choco
 {
@@ -282,15 +301,19 @@ video
 .marg
 {
     margin-top: 2px;
-    margin-bottom: 0px;
-    font-size: 14px;
+    margin-bottom: px;
+    font-size: 18px;
     color: rgb(71, 63, 63);
+    margin-left: 10px;
+    text-align: start;
+
 }
 .margo
 {
-    color: rgb(138, 30, 30);
-    font-size: 16px;
-    margin-bottom: 3px;
+    color: rgb(189, 19, 19);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
 
 }
 .adobe
@@ -301,6 +324,7 @@ video
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 
@@ -311,6 +335,7 @@ video
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
     
 }
 
@@ -320,6 +345,7 @@ video
     height: 280px;
     width: 330px;
     text-align: center;
+    overflow: hidden;
 }
 .text a
 {
@@ -341,6 +367,7 @@ video
     flex-direction: row;
     align-items: center;
     background-color: white;
+    overflow: hidden;
     
     
 }
@@ -351,6 +378,7 @@ video
     margin-right: 20px;
     margin-left: 30px ;
     width: 405px;
+    overflow: hidden;
     
 
 }
@@ -360,6 +388,7 @@ video
 
  color: rgb(169, 38, 38);
  font-size: 18px;
+ overflow: hidden;
 
 }
 #nav{
@@ -420,6 +449,7 @@ margin-right: 50px;
     justify-content: start;
     font-size: 18px;
     color: gray;
+    overflow: hidden;
 
   }
 
@@ -431,6 +461,7 @@ margin-right: 50px;
     font-size: 16px;
     color: rgb(134, 32, 32);
     font-weight: bold;
+    overflow: hidden;
 
   }
 
@@ -448,6 +479,7 @@ margin-right: 50px;
     font-weight: bold;
     padding: 0px;
     margin-top: 20px;
+    overflow: hidden;
     
 
   }
@@ -455,6 +487,7 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
     gap: 0px;
+    overflow: hidden;
   }
 .pink{
     display: flex;
@@ -462,7 +495,8 @@ margin-right: 50px;
     height: 400px;
     padding: 10PX;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    overflow: hidden;
     
 }
 .en-bas{
@@ -470,6 +504,7 @@ margin-right: 50px;
     width: 300px;
     font-size: 18px;
     color: gray;
+    overflow: hidden;
 
 }
 #input{
@@ -531,9 +566,10 @@ margin-right: 50px;
 {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   width: 300px;
+   width: 400px;
    margin-top: 100px;
+   overflow: hidden;
+   
 }
 
 #choca
@@ -547,6 +583,7 @@ margin-right: 50px;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    overflow: hidden;
     
 
 
@@ -563,6 +600,8 @@ a
     justify-content: space-between;
     height: 400px;
     align-items: center;
+    margin-top: px;
+    overflow: hidden;
 }
 #canada
 {
@@ -575,26 +614,33 @@ a
 #abc
 {
     width: 490px;
-    height: 500px;
+    height: 450px;
     margin-left: 80px;
 }
-.submit
+.submit 
 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    margin-top: -170px;
+    margin-top: -100px;
+    overflow: hidden;
+    
 }
 #envoie
 {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
+    background: #0f0f0f;
+    color: #fcfcfc;
+    overflow: hidden;
 }
 .av
 { 
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    overflow: hidden;
 }
 .us
 {
@@ -604,26 +650,30 @@ a
     flex-direction: column;
 
     justify-content: center;
+    overflow: hidden;
 }
 .us h1
 {
  color: rgb(134, 32, 32);
     ;
 }
-.nourre
+.nourre 
 {
     display: flex;
     flex-direction: column;
     width: 300px;
     height: 400px;
-    margin-left: 20px;
+    margin-left: 0px;
+    overflow: hidden;
 }
 .marga
 {
     background: white;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
 }
-.marga p{
-}
+
 #marga
 {
     color: rgb(169, 38, 38);
@@ -631,7 +681,8 @@ a
 .nourre p , a
 {
  
-    font-size: 13px;
+    font-size: 16px;
+    margin-left: 15px;
 
  }
 
@@ -641,4 +692,25 @@ a
  #nav1
  {
     margin-left: 200px;
+ }
+ .nourri a{
+    margin-top: 10px;
+ }
+ .gauche
+ {
+    border-radius: 15px;
+    background-color: #faf7f74d;
+    border: solid #faf7f74d;
+    font-size: 26px;
+    overflow: hidden;
+
+ }
+ .droit
+ {
+    border-radius: 10px;
+    background-color: #faf7f74d;
+    border: solid #faf7f74d;
+    font-size: 26px;
+    margin-right: 5px;
+    overflow: hidden;
  }
