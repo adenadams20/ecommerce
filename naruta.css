@@ -15,7 +15,6 @@ background-color: #ffbe9f;
 padding: 10px;
 width: 100%;
 z-index: 10px;
-overflow: hidden;
 }
 .free p
 {
@@ -31,7 +30,6 @@ align-items: center;
 
     background: white;
     z-index: 2;
-    overflow: hidden;
 }
 .fr
 {border: solid;
@@ -110,7 +108,6 @@ text-align: center;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
-    overflow: hidden;
     
 }
 .container button
@@ -123,7 +120,6 @@ text-align: center;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
-    overflow: hidden;
     
 }
 #tof
@@ -140,7 +136,6 @@ text-align: center;
     height: 600px;
     padding-top: 30px;
     margin-top: 50PX;
-    overflow: hidden;
 }
 .cook
 {
@@ -169,7 +164,6 @@ text-align: center;
     height: 630px;
     align-items: center;
     padding-top: 10px;
-    overflow: hidden;
     
 
 }
@@ -178,7 +172,6 @@ text-align: center;
     color: rgb(206, 31, 31);
     text-align: center;
     z-index: 1;
-    overflow: hidden;
 }
 .banana
 {
@@ -190,7 +183,6 @@ text-align: center;
     align-items: center;
     height: 408px;
     z-index: 10;
-    overflow: hidden;
 }
 #banana
 {
@@ -220,7 +212,6 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
     
 }
 .insta h1{
@@ -243,10 +234,8 @@ video
 }
 
 
-#vid
-{
-   
-}
+
+
    
 #insta
 {
@@ -324,7 +313,6 @@ video
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
-    overflow: hidden;
 }
 
 
@@ -335,7 +323,6 @@ video
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
     
 }
 
@@ -345,7 +332,6 @@ video
     height: 280px;
     width: 330px;
     text-align: center;
-    overflow: hidden;
 }
 .text a
 {
@@ -367,7 +353,6 @@ video
     flex-direction: row;
     align-items: center;
     background-color: white;
-    overflow: hidden;
     
     
 }
@@ -378,7 +363,6 @@ video
     margin-right: 20px;
     margin-left: 30px ;
     width: 405px;
-    overflow: hidden;
     
 
 }
@@ -388,7 +372,6 @@ video
 
  color: rgb(169, 38, 38);
  font-size: 18px;
- overflow: hidden;
 
 }
 #nav{
@@ -449,7 +432,6 @@ margin-right: 50px;
     justify-content: start;
     font-size: 18px;
     color: gray;
-    overflow: hidden;
 
   }
 
@@ -461,7 +443,6 @@ margin-right: 50px;
     font-size: 16px;
     color: rgb(134, 32, 32);
     font-weight: bold;
-    overflow: hidden;
 
   }
 
@@ -479,7 +460,6 @@ margin-right: 50px;
     font-weight: bold;
     padding: 0px;
     margin-top: 20px;
-    overflow: hidden;
     
 
   }
@@ -487,7 +467,6 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
     gap: 0px;
-    overflow: hidden;
   }
 .pink{
     display: flex;
@@ -496,7 +475,6 @@ margin-right: 50px;
     padding: 10PX;
     flex-direction: row;
     justify-content: space-evenly;
-    overflow: hidden;
     
 }
 .en-bas{
@@ -504,7 +482,6 @@ margin-right: 50px;
     width: 300px;
     font-size: 18px;
     color: gray;
-    overflow: hidden;
 
 }
 #input{
@@ -568,7 +545,6 @@ margin-right: 50px;
    flex-direction: column;
    width: 400px;
    margin-top: 100px;
-   overflow: hidden;
    
 }
 
@@ -583,7 +559,6 @@ margin-right: 50px;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    overflow: hidden;
     
 
 
@@ -601,7 +576,6 @@ a
     height: 400px;
     align-items: center;
     margin-top: px;
-    overflow: hidden;
 }
 #canada
 {
@@ -623,7 +597,6 @@ a
     justify-content: center;
     margin-bottom: 30px;
     margin-top: -100px;
-    overflow: hidden;
     
 }
 #envoie
@@ -632,7 +605,6 @@ a
     border-radius: 15px;
     background: #0f0f0f;
     color: #fcfcfc;
-    overflow: hidden;
 }
 .av
 { 
@@ -640,7 +612,6 @@ a
     flex-direction: row;
     margin-bottom: 150px;
     margin-top: 100px;
-    overflow: hidden;
 }
 .us
 {
@@ -650,7 +621,6 @@ a
     flex-direction: column;
 
     justify-content: center;
-    overflow: hidden;
 }
 .us h1
 {
@@ -664,21 +634,19 @@ a
     width: 300px;
     height: 400px;
     margin-left: 0px;
-    overflow: hidden;
 }
 .marga
 {
     background: white;
     width: 250px;
     height: 100px;
-    overflow: hidden;
 }
 
 #marga
 {
     color: rgb(169, 38, 38);
 }
-.nourre p , a
+.nourre p  a
 {
  
     font-size: 16px;
@@ -702,7 +670,6 @@ a
     background-color: #faf7f74d;
     border: solid #faf7f74d;
     font-size: 26px;
-    overflow: hidden;
 
  }
  .droit
@@ -712,5 +679,154 @@ a
     border: solid #faf7f74d;
     font-size: 26px;
     margin-right: 5px;
-    overflow: hidden;
  }
+ .now
+ {
+    border: solid;
+ }
+
+
+
+
+ @media screen and (max-width:800px)
+    
+ 
+ { 
+body{
+}
+    
+.cook{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: #0f0;
+        margin-top: 1300px;
+        height: 1700px;
+
+    }
+   
+    .haut1{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hautlien
+    {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    #nav1
+    {
+       position: relative;
+      right: 100px;
+    }
+    .icone
+    {
+        display: flex;
+        margin-left:50px ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer
+    {}
+
+    .container
+    {
+        height: 390px;
+       
+    }
+    .container button
+    {
+        position: relative;
+        margin-top: 0
+    }
+    .tof
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1600px;
+        border: #0f0 solid;
+    }
+    .cook2
+    {
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .banana
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .insta{
+        height: 1700px;
+        
+    }
+    .vide
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1800px;
+        align-items: center;
+        justify-content: center;
+    }
+    #insta
+    {
+        margin-top: 10px;
+    }
+    #vid
+    {
+        margin-top: 10px;
+    }
+    video
+    {
+        width: 200px;
+    }
+    .cust{
+        height: 1800px;
+    }
+
+    .speak
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1600px;
+        
+    }
+    .nourr
+    {
+        height: 500px;
+    }
+
+    .speak2
+    {
+        height: 1900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .submit
+    {
+        margin-top: 50px;
+    }
+    .av{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .us
+    {
+        width: 400px;
+    }
+
+    
+    
+    
+ }
+
