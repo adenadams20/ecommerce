@@ -748,7 +748,6 @@ body{
         display: flex;
         flex-direction: column;
         height: 1600px;
-        border: #0f0 solid;
     }
     .cook2
     {
