@@ -1,5 +1,4 @@
 body
-
 {
     padding: 0%;
     background: rgba(255, 255, 255, 0.808);
@@ -234,9 +233,6 @@ video
 }
 
 
-
-
-   
 #insta
 {
     height: 200px;
@@ -314,8 +310,6 @@ video
     justify-content: center;
     background-attachment: fixed;
 }
-
-
 .plan
 {
     height: 500px;
@@ -323,9 +317,11 @@ video
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-}
 
+
+    overflow: hidden;
+
+}
 .text
 {
     background-color: rgb(255, 255, 255);
@@ -353,8 +349,9 @@ video
     flex-direction: row;
     align-items: center;
     background-color: white;
-    
-    
+
+    overflow: hidden;
+
 }
 
 .hautlien {
@@ -363,8 +360,12 @@ video
     margin-right: 20px;
     margin-left: 30px ;
     width: 405px;
-    
 
+
+    overflow: hidden;
+
+
+    
 }
 .hautlien a{
  margin-right: 10px;
@@ -444,12 +445,14 @@ margin-right: 50px;
     color: rgb(134, 32, 32);
     font-weight: bold;
 
-  }
 
+    overflow: hidden;
+
+
+  }
   .site p:hover{
     color: #53555a;
     cursor: pointer;
-    
   }
   .site1{
     width: 150px;
@@ -460,7 +463,14 @@ margin-right: 50px;
     font-weight: bold;
     padding: 0px;
     margin-top: 20px;
+
+
+
+    overflow: hidden;
+
+
     
+
 
   }
   .tout{
@@ -474,8 +484,15 @@ margin-right: 50px;
     height: 400px;
     padding: 10PX;
     flex-direction: row;
+
+    justify-content: space-around; 
+
     justify-content: space-evenly;
+
+    overflow: hidden;
+
     
+
 }
 .en-bas{
     height: 350px;
@@ -483,12 +500,18 @@ margin-right: 50px;
     font-size: 18px;
     color: gray;
 
+
+
+    overflow: hidden;
+
+
+
+
 }
 #input{
   padding: 10px;
   width: 300px;
   border-radius: 10px;
-
 }
 .vert{
     background-image: url(bagraound-colour.jpg);
@@ -497,15 +520,12 @@ margin-right: 50px;
     text-align: center;  
     color: white; 
     font-size: larger 200px;
-    
-
 }
 #input1{
     width: 350px;
     border-radius: 5px;
     padding: 15px;
     border: 1px solid white;
-    
 }
 #bouton{
     padding: 15px;
@@ -528,17 +548,13 @@ margin-right: 50px;
     background-color: #53555a;
     color: white;
     margin-top: 20px;
-
 }
 #lang{
     border: 1px solid white;
 }
 #lang:hover{
     background-color: white;
-
-
 }
-
 .nourri
 {
    display: flex;
@@ -547,7 +563,6 @@ margin-right: 50px;
    margin-top: 100px;
    
 }
-
 #choca
 {
     width: 400px;
@@ -559,8 +574,11 @@ margin-right: 50px;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    
 
+
+    overflow: hidden;
+
+    
 
 }
 a
@@ -648,9 +666,13 @@ a
 }
 .nourre p  a
 {
+
+    font-size: 14px;
+
  
     font-size: 16px;
     margin-left: 15px;
+
 
  }
 
@@ -689,6 +711,7 @@ a
 
 
  @media screen and (max-width:700px)
+
     
  
  { 
@@ -729,8 +752,8 @@ a
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    footer
-    {}
+    
+    
 
     .container
     {
