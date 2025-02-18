@@ -824,6 +824,10 @@ body{
         width: 400px;
     }
 
+    body
+    {
+        overflow-x: hidden;
+    }
     
     
     
