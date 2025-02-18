@@ -711,8 +711,7 @@ a
     
  
  { 
-body{
-}
+
     
 .cook{
         display: flex;
@@ -749,8 +748,8 @@ body{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    footer
-    {}
+    
+    
 
     .container
     {
@@ -843,6 +842,10 @@ body{
         width: 400px;
     }
 
+    body
+    {
+        overflow-x: hidden;
+    }
     
     
     
