@@ -703,7 +703,11 @@ a
     border: solid;
  }
 
- @media screen and (max-width:800px)
+
+
+
+ @media screen and (max-width:700px)
+
     
  
  { 
@@ -720,7 +724,7 @@ a
     }
    
     .haut1{
-        height: 200px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -832,6 +836,7 @@ a
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .us
     {
@@ -840,6 +845,8 @@ a
 
     body
     {
+        margin: 0%;
+        padding: 0%;
         overflow-x: hidden;
     }
     
